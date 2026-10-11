@@ -1,0 +1,7 @@
+# Batch files must stay CRLF or cmd.exe misparses them; keep PowerShell CRLF too.
+* text=auto
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.md  text eol=lf
+LICENSE text eol=lf
